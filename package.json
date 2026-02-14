@@ -1,0 +1,22 @@
+{
+  "name": "lead-management-api",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Serverless Lead Management backend (Node.js, Express, MongoDB) for Vercel.",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "serverless-http": "^3.2.0"
+  }
+}
+
